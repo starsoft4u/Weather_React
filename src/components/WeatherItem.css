@@ -1,0 +1,47 @@
+.Weather-Item {
+    flex-basis: 100px;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 200px;
+    min-height: 350;
+    background-color: hsla(0, 0%, 100%, .8);
+    padding: 12px;
+    -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .07);
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .07);
+    color: #1f1f1f;
+    font-size: 16px;
+    margin-right: 2px;
+}
+
+.current {
+    flex-basis: 125px;
+    background-color: white;
+}
+
+.title,
+.time-stamp {
+    font-weight: 500;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.time-stamp {
+    color: #878787;
+}
+
+.weather-icon {
+    width: 120px;
+    height: 120px;
+}
+
+.temperature {
+    font-size: 48px;
+}
+
+.feel {
+    color: #878787;
+    margin-bottom: 20px;
+}
